@@ -66,11 +66,11 @@ const Hero = () => {
                 alt={slide.title}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-orange-900/30 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-r from-orange-500/30 to-transparent" />
             </div>
 
             {/* Content */}
-            <div className="relative h-full flex items-center justify-center text-center">
+            <div className="relative h-full mx-3 flex items-center justify-center text-center">
               <div className="max-w-3xl bg-white/40 backdrop-blur-sm p-8 rounded-lg shadow-lg">
                 <h1 className="text-4xl md:text-5xl font-bold text-orange-900 mb-4 animate-fadeIn drop-shadow-sm">
                   {slide.title}
