@@ -20,7 +20,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-orange-50">
+    <div className="h-72 bg-orange-50">
       {/* Header */}
       <header className="bg-gradient-to-r bg-orange-600 text-white py-4">
         <div className="container mx-auto px-4">
